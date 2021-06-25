@@ -22,7 +22,7 @@ for package in packages:
 print("===============================================")
 if len(packagenames) == 1:
    appname=packagenames[0]
-commonstrings=["pwd", "password", "hash", "key", "API key", "api","code", "2FA", "token","passwd", "pin", "pincode", "@", "secret", "private", "serial", "logon", "login", "logged", "session", "creds", "credential"]
+commonstrings=["pwd", "password", "hash", "key", "API key", "api","code", "2FA", "token","passwd", "pin", "pincode", "@", "secret", "private", "serial", "logon", "login", "logged", "session", "creds", "credential", "user", "IP", "mail", "nick"]
 lines=[]
 while True:
       x = adb.logcat().decode('utf-8').split("\n")
