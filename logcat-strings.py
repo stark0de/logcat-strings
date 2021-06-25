@@ -31,6 +31,7 @@ while True:
           line=line.lower()
           if appname.lower() in line:
              for i in commonstrings:
+                 i=i.lower()
                  if i in line and line not in lines:
                     lines.append(line)
                     print("Match "+i+" :"+line)
