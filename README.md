@@ -4,7 +4,7 @@ Simple tool to look in real time for possible information leaks in an Android ap
 ## Usage
 
 ```
-Clone the repo and cd into into
+Clone the repo and cd into it
 
 1) pip3 install pwntools
 2) Launch your virtual device (ex: with Genymotion or AVD Manager in Android Studio)
